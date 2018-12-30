@@ -15,7 +15,7 @@ incluye el archivo .sh para integrarlo como un servicio en linux tambien tiene f
 	import pymysql
 	from daemon import runner
 	import logging
-#mysql credentials / credenciales mysql
+	#mysql credentials / credenciales mysql
 	DB_HOST = 'localhost' 
 	DB_USER = 'user' 
 	DB_PASS = '123456' 
@@ -32,7 +32,7 @@ incluye el archivo .sh para integrarlo como un servicio en linux tambien tiene f
 	   def run(self):
 	       #
 	       i = 0
-# las credenciales de firebase / firebase credencials
+		# las credenciales de firebase / firebase credencials
 	       cred = credentials.Certificate('/path/to/googlejson/Conf-FireBase.json')
 	       # inicializo la conexion con firebase y mi base de datos / initialize the firebase conection
 	       firebase_admin.initialize_app(cred, {
